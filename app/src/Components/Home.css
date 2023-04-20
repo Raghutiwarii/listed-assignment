@@ -1,0 +1,258 @@
+.login-container {
+    display: flex;
+  }
+  
+  @media screen and (min-width: 480px) {
+    .left-section {width: 200px; float: left;
+      min-width: 300px;
+      font-size: 60px;}
+    .right-section{
+      min-width: 300px}
+  }
+
+  .left-section {
+    width: 40%;
+    height: calc(100vh);
+    background-color: #000000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .right-section {
+    flex: 1;
+    height: calc(100vh);
+    background-color: #F5F5F5;
+  }
+  .board{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font: Montserrat;
+    color: #FFFFFF;
+    size: 55px;
+    font: bolder;
+  }
+
+
+  .sign-text{
+    position: absolute;
+    width: 131px;
+    height: 44px;
+    left: 55.5%;
+    top: calc(100% - 85%);
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 44px;
+    /* identical to box height */
+    color: #000000;
+  }
+
+  .account-text{
+    position: relative;
+    width: 161px;
+    height: 19px;
+    left: 24.5%;
+    top: 20%;
+    margin: 5px;
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    
+    color: #000000;
+  }
+
+.sign ,.google-sign ,.apple-sign{
+  display: inline;
+}
+
+.form{
+  position: relative;
+  margin-top: 5px;
+  background: #FFFFFF;
+  border-radius: 20px;
+  height: 317px;
+  width: 385px;
+  left: 25%;
+  top: 26%;
+  border-radius: 20px;
+}
+
+.sign{
+  justify-content: center;
+  display: flex;
+}
+
+.google{
+  float: left;
+}
+
+.apple {
+  float: right;
+}
+
+.label-email{
+  padding-left: 30px;
+  padding-top: 30px;
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  width: 96px;
+  height: 19px;
+  color: #000000;
+}
+
+.google-sign{
+  position: absolute;
+  background: #FFFFFF;
+  border-radius: 10px;
+  height: 30px;
+  width: 175px;
+  left: 55.5%;
+  padding: 3px;
+  font-size: 12px;
+  top: 25%;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.google-image{
+  width: 20px;
+  left: 19.76px;
+}
+
+.apple-sign{
+  position: absolute;
+  background: #FFFFFF;
+  border-radius: 10px;
+  height: 30px;
+  width: 175px;
+  padding: 3px;
+  top: 25%;
+  left: 69.5%;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.only-google-sign{
+  font-weight: 500;
+  font-size: 15px;
+  gap: 5px;
+}
+
+.apple-image{
+  width: 20px;
+  top: 0.001251220703125px;
+  
+}
+
+.input-username{
+  height: 40px;
+  width: 325px;
+  margin-left: 30px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  /* Background */
+  background: #F5F5F5;
+  border-radius: 10px;
+}
+
+.input-password{
+  height: 40px;
+  width: 325px;
+  left: 30px;
+  top: 148px;
+  margin-left: 30px;
+  margin-top: 10px;
+  /* Background */
+  background: #F5F5F5;
+  border-radius: 10px;
+}
+
+.label-pass{
+  margin-left: 30px;
+  padding-top: 20px;
+  margin-top: 20px;
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  color: #000000;
+}
+
+.btn{
+  height: 40px;
+  width: 325px;
+  position: absolute;
+  left: 30px;
+  top: 247px;
+  background: #000000;
+  border-radius: 10px;
+}
+
+.btn-text{
+  font-family: Montserrat;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 20px;
+  text-align: center;
+  width: 101.96px;
+  height: 21.71px;
+  left: 142.58px;
+  top: 250px;
+  font-family: 'Montserrat';
+  font-style: normal;
+  color: #FFFFFF;  
+}
+
+.not-account{
+  position: relative;
+  left: 33%;
+  top: 30%;
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  /* Secondary Text */
+  color: #858585;
+}
+
+.forgot-password{
+  position: absolute;
+  width: 124px;
+  height: 19px;
+  left: 30px;
+  top: 208px;
+
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+
+  /* Link */
+  color: #346BD5;
+}
+
+.register{
+  color: #346BD4;
+}
+
+.sign{
+  display: flex;
+  
+}
